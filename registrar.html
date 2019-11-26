@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Registro</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<form action="guardar.php" method="POST">
+		<div class="test1">
+		<h2>Registrar</h2>
+		<p>Ingresa tu correo</p>
+	    <div>
+		    <input type="email" name="correo" placeholder="correo@correo.com" required>
+	    </div>
+	<br>
+	    <p>Contraseña</p>
+	    <div>
+		    <input type="password" name="contrase" pattern=".{6,}" placeholder="Contraseña" required>
+	    </div>
+	<br>
+	    <div class="buttonss">
+	        <button class="bt1" type="submit">Registrar</button>
+	        <br><br>
+	        <a class="noregis" href="sesion.html">Regresar</a>
+	    </div>
+	</div>
+	</form>
+</body>
+</html>
